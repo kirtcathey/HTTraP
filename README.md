@@ -1,1 +1,5 @@
 # HTTraP
+
+HTTraP is an HTTP server designed to run on a very light footprint for performance, but also has OFFENSIVE analysis hooks built-in to discretely divert traffic (within the same web server instance) to a trap node that allows for realtime analysis based on various analysis - raw activity, binary injection, cookie response analytics. The offensive objective is to shift web presence from the bastion demise that currently exists, to a service readily available but neutral in the realm of defensive/offensive capability. I.e., build some offensive capability into a service that has traditionally been protected with defensive mechanisms alone.
+
+The web service core design and the hooks have been programmed - C and ASM (but will be mostly x86/x86_64 assembly in the end. I am working on the core synchronization, initial core response library (and lookup schema), and other details before I release the code here. However, will publish a graph design of the idea soon so viewers/participants can better understand the high-level program architecture.
